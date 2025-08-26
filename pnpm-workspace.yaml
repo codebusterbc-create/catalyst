@@ -1,0 +1,25 @@
+packages:
+  - core
+  - packages/*
+
+ignoredBuiltDependencies:
+  - unrs-resolver
+  - workerd
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - '@swc/core'
+  - '@vercel/speed-insights'
+  - esbuild
+  - msw
+  - puppeteer
+  - sharp
+
+publicHoistPattern:
+  - '@bigcommerce/eslint-*'
+  - '@bigcommerce/eslint-*'
+  - '@next/eslint-*'
+  - '@stylistic/eslint-*'
+  - '@typescript-eslint/*'
+  - eslint-config-*
+  - eslint-plugin-*
